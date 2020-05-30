@@ -1,0 +1,21 @@
+service: go-serverless
+
+provider:
+  name: aws
+  runtime: go1.x
+  region: us-east-2
+  stage: dev
+  memorySize: 128
+
+package:
+  exclude:
+    - ./**
+  include:
+    - ./build/go-serverless
+
+functions:
+  app:
+    handler: build/go-serverless
+    events:
+      - http: ANY /
+      - http: ANY /{proxy+}

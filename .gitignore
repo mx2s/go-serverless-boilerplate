@@ -1,0 +1,28 @@
+ries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+.idea/
+.vscode/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# configuration
+config/main.json
+config/test_data.json
+
+
+# Build, binaries etc.
+.serverless/
+.bin/
+bin/
+build/
+pkg/
+src/app/vendor/
