@@ -1,5 +1,5 @@
 # go-serverless-boilerplate
-Example go function for (serverless framework) AWS lambda - uses `github.com/julienschmidt/httprouter` as router, allows to use it in AWS lambda or as a http server locally
+Example go function for (serverless framework) AWS lambda - uses `github.com/julienschmidt/httprouter` as router, allows to use it in AWS lambda or as a http server locally with same router configuration
 
 All code is located in a single `main.go` file
 
